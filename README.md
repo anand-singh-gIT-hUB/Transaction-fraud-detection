@@ -13,10 +13,10 @@ This project leverages **AI and LLMs (Large Language Models)** to detect **fraud
 
 ## ⚙ **Tech Stack**
 - **Programming Language:** Python  
-- **Model:** OpenAI GPT (or open-source LLMs like Llama 2)  
+- **Model:** Llama Mini 
 - **Frameworks:** PyTorch, Hugging Face Transformers  
 - **API Deployment:** FastAPI  
-- **Dataset Format:** JSONL (Labeled Fraud Data)  
+- **Dataset Format:** JSONL (Labeled Fraud Data from kaggle dataset)  
 
 ---
 
