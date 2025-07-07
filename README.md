@@ -16,7 +16,7 @@ This project leverages **AI and LLMs (Large Language Models)** to detect **fraud
 - **Model:** Llama Mini 
 - **Frameworks:** PyTorch, Hugging Face Transformers  
 - **API Deployment:** FastAPI  
-- **Dataset Format:** JSONL (Labeled Fraud Data from kaggle dataset)  
+- **Dataset Format:** CSV (Labeled Fraud Data from kaggle dataset)  
 
 ---
 
