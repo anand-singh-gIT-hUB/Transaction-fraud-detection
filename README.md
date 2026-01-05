@@ -57,10 +57,12 @@ The pipeline is designed to be research-aligned, industry-ready, and deployment-
 
 📂 Project Structure
 ├── requirements.txt
+├── preprocess.py
 ├── creditcard.csv
 ├── random_forest_fraud_model.pkl
 ├── credit_card_fraud_detection.ipynb
 └── README.md
+
 
 @How to Run the Project
   -Clone the repository:  git clone https://github.com/your-username/credit-card-fraud-detection.git
