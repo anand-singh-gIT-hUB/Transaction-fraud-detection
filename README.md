@@ -1,4 +1,4 @@
-Credit Card Fraud Detection using Random Forest & SMOTE
+Credit Card Fraud Detection using Random Forest & SMOTE 
 
 #Project Overview:
 Credit card fraud detection is a critical machine learning problem due to extreme class imbalance and the high cost of misclassification.
@@ -28,15 +28,27 @@ The pipeline is designed to be research-aligned, industry-ready, and deployment-
   -Optimized using ROC-AUC score as the primary metric
 
 @Model Evaluation
-  -Accuracy
-  -Precision
-  -Recall
-  -F1-score
-  -ROC-AUC
-  -Confusion Matrix
+  -Accuracy :  0.9996498354226486
+  -Precision : 0.9411764705882353
+  -Recall : 0.9142857142857143
+  -F1-score : 0.927536231884058
+  -ROC-AUC : 0.9545001404099971
+  -Confusion Matrix :
+      [[14242     2]
+      [    3    32]]
 
 @Feature Importance Analysis
-  -Model Persistence
+  -Model Persistence : 
+    14	V14	0.307607
+    3	V3	0.118279
+    10	V10	0.103907
+    17	V17	0.099536
+    12	V12	0.076487
+    4	V4	0.064551
+    16	V16	0.055059
+    2	V2	0.033049
+    9	V9	0.021208
+    7	V7	0.01960
 
 @Saved trained model as a .pkl file for reuse and deployment
 
@@ -57,7 +69,6 @@ The pipeline is designed to be research-aligned, industry-ready, and deployment-
 
 📂 Project Structure
 ├── requirements.txt
-├── preprocess.py
 ├── creditcard.csv
 ├── random_forest_fraud_model.pkl
 ├── credit_card_fraud_detection.ipynb
