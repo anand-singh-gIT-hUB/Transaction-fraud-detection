@@ -56,6 +56,7 @@ The pipeline is designed to be research-aligned, industry-ready, and deployment-
 @Environment: Google Colab / Jupyter Notebook
 
 📂 Project Structure
+├── requirements.txt
 ├── creditcard.csv
 ├── random_forest_fraud_model.pkl
 ├── credit_card_fraud_detection.ipynb
